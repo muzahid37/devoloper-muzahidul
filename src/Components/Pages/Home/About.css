@@ -1,0 +1,10 @@
+.profile-container{
+    position: relative;
+    border: 2px solid #1e293b;
+}
+.profile{
+    position: relative;
+    left: 9px;
+    top: 9px;
+
+}
