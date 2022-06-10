@@ -10,7 +10,7 @@ const Projects = () => {
       }, []);
     
     return (
-        <div className="my-28 w-3/4 mx-auto">
+        <div className="my-28 w-fit lg:w-3/4 mx-auto">
         <h2 className="text-center uppercase  text-5xl text-primary my-12 ">projects</h2>
         <div className=" grid  sm:grid-cols-1 lg:grid-cols-3 gap-10 ">
           

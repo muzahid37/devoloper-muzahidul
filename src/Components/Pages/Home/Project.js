@@ -9,7 +9,7 @@ const Project = ({ project }) => {
         data-aos="zoom-in"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        class="card w-96 bg-base-100 shadow-xl"
+        class="card w-fit lg:w-96  bg-base-100 shadow-xl"
       >
         <figure class="px-10 pt-10">
           <img src={image} alt="" class="rounded-xl" />
