@@ -22,7 +22,12 @@ const Contact = () => {
         Contuct us
       </h2>
       <div className=" grid  sm:grid-cols-1 lg:grid-cols-2 gap-5 ">
-        <div class="card p-12 bg-neutral text-white shadow-xl">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          class="card p-12 bg-neutral text-white shadow-xl"
+        >
           <h2>Get in Touch</h2>
           <p>
             If you have any query want to ask me or want to give me any
@@ -33,7 +38,12 @@ const Contact = () => {
           <h2>Phone:01776436494</h2>
           <h2>Email:muzahidul372709@gmail.com</h2>
         </div>
-        <div class="card p-12 bg-neutral shadow-xl">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          class="card p-12 bg-neutral shadow-xl"
+        >
           <form
             onSubmit={onSubmit}
             className="grid grid-cols-1 gap-3 justify-items-center mt-2"
@@ -67,10 +77,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
-     
-        
-      </div>
-   
+    </div>
+
     // <div class="hero min-h-screen bg-base-200">
     //   <div class=" flex-col lg:flex-row flex gap-7 p-12 w-3/4">
     //       <div className="w-2/4">

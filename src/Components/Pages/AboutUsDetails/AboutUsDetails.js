@@ -1,27 +1,28 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./About.css";
 
-const About = () => {
+const AboutUsDetails = () => {
   return (
-    <div
-      data-aos="fade-right"
-      data-aos-easing="linear"
-      data-aos-duration="1500"
-    >
-      <h1 className="text-5xl font-bold text-neutral bg-base-200 text-center py-12">
-        ABOUT ME
-      </h1>
-      <div className="hero h-fit pb-12 bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="profile-container">
+    <div>
+      <div class="hero min-h-fit bg-neutral">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold py-48 text-white">About us</h1>
+          </div>
+        </div>
+      </div>
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col ">
+          <div data-aos="zoom-in-up" className="profile-container">
             <img
               src="https://i.ibb.co/HxT7hDk/myphoto.jpg"
               className="max-w-sm rounded-lg shadow-2xl profile"
             />
           </div>
-
-          <div className="w-3/4">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className="w-3/4 pt-12"
+          >
             <h1 className="text-4xl text-neutral font-bold">
               I'm a Web Developer
             </h1>
@@ -39,7 +40,6 @@ const About = () => {
               those new technologies, but the web development profession is
               above all my preferences.
             </p>
-            <Link className="btn btn-primary" to='/aboutus'> see Details</Link>
           </div>
         </div>
       </div>
@@ -47,4 +47,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutUsDetails;
