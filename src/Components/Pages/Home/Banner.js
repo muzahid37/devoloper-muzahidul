@@ -19,7 +19,7 @@ const Banner = () => {
               I’m a web developer specializing in building exceptional digital
               experiences. Now i am learning web devolopment day by day.
             </p>
-            <a href="https://drive.google.com/file/d/1waqiwOk9MeTMYhIG-ndgjCcxRl5dVqWl/view?usp=sharing';">
+            <a href="https://drive.google.com/file/d/1waqiwOk9MeTMYhIG-ndgjCcxRl5dVqWl/view?usp=sharing" target="_blank">
               {" "}
               <button className="btn btn-primary ">Get MY REsume</button>
             </a>

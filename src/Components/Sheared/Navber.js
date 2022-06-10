@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
     const menuItems=<>
     <li>  <Link to="/">Home</Link> </li>
-    <li>  <Link to="/about">About</Link>  </li>
+    <li>  <Link to="/aboutus">About</Link></li>
     <li>  <Link to='/blog'>Blog</Link>  </li>
     <li>  <Link to="/contact">Contact</Link>  </li>
   </>
@@ -28,7 +28,7 @@ const Navber = () => {
     </ul>
   </div>
   <div class="navbar-end">
-  <a href="https://drive.google.com/file/d/1waqiwOk9MeTMYhIG-ndgjCcxRl5dVqWl/view?usp=sharing';"> <button className="btn btn-primary ">Get MY REsume</button></a>
+  <a href="https://drive.google.com/file/d/1waqiwOk9MeTMYhIG-ndgjCcxRl5dVqWl/view?usp=sharing" target="_blank" download> <button className="btn btn-primary ">Get MY REsume</button></a>
          
   </div>
 </div>
