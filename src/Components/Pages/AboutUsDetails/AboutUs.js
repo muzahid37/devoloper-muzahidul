@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutUsDetails = () => {
+const AboutUs = () => {
   return (
     <div>
       <div class="hero min-h-fit bg-neutral">
@@ -47,4 +47,4 @@ const AboutUsDetails = () => {
   );
 };
 
-export default AboutUsDetails;
+export default AboutUs;

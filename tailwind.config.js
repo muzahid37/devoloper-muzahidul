@@ -4,14 +4,12 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#a991f7",
-          secondary: "#f6d860",
-          accent: "#37cdbe",
-          neutral: "#1e293b",
-          "base-100": "#ffffff",
+          primary: "#ffffff",
+          secondary: "#78add9",
+          accent: "#df5646",
+          warning: "#DF5646",
         },
       },
-      "dark",
       "cupcake",
     ],
   },
