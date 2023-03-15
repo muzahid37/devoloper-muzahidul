@@ -102,7 +102,26 @@ const AboutMe = () => {
           </div>
         </div>
         {/* //right part of about part  */}
-        <div className="about-right">
+        <div className="about-right relative">
+          {/*  https://i.ibb.co/9G7BdYH/shape-two.png*/}
+          <img
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="animation-img absolute right-0"
+            src="https://i.ibb.co/P50CYBG/shape-one.png
+           
+"
+          ></img>
+          <img
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="animation-img absolute left-2/4 top-3.5	"
+            src="https://i.ibb.co/9G7BdYH/shape-two.png
+           
+"
+          ></img>
           <img
             data-aos="fade-left"
             src="https://i.ibb.co/s61S8PY/portfolio-About.png"

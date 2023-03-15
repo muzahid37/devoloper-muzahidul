@@ -62,9 +62,9 @@ const Navber = () => {
             target="_blank"
           >
             {" "}
-            <button className="items-center	inline-flex	font-black	">
+            <button className="items-center	inline-flex		">
               Get my resume{" "}
-              <span className="ml-1">
+              <span className="ml-1 font-black">
                 <AiOutlineDownload />
               </span>
             </button>
