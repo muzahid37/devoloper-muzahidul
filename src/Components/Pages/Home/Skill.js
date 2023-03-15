@@ -123,9 +123,7 @@ const Skill = () => {
         {/* //right part of skills part  */}
         <div className="skills-right hidden lg:inline-block">
           <img
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos="fade-right"
             src="https://i.ibb.co/s61S8PY/portfolio-skills.png"
           ></img>
         </div>

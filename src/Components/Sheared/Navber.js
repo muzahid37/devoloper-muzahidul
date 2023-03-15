@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { AiOutlineDownload } from "react-icons/ai";
 
 const Navber = () => {
   const menuItems = (
@@ -24,7 +25,7 @@ const Navber = () => {
   );
   return (
     <div>
-      <div class="navbar">
+      <div class="navbar fixed shadow-xl bg-base-100 top-0	">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -61,7 +62,12 @@ const Navber = () => {
             target="_blank"
           >
             {" "}
-            <button className="btn btn-primary ">Get MY Resume</button>
+            <button className="items-center	inline-flex	font-black	">
+              Get my resume{" "}
+              <span className="ml-1">
+                <AiOutlineDownload />
+              </span>
+            </button>
           </a>
         </div>
       </div>

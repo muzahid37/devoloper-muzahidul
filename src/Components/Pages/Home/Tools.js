@@ -59,21 +59,21 @@ const Tools = () => {
             https://i.ibb.co/PTHyKX1/github-mark-white.png
             https://i.ibb.co/cyDNTnt/figma.png
             <div className="flex justify-around flex-col"> */}
-              <div className=" shadow rounded-full">
+              <div className=" rounded-full">
                 <img
                   data-aos="zoom-in"
                   className="w-36"
                   src="https://i.ibb.co/ZcgXB7n/npm.jpg https://i.ibb.co/8myF9HQ/trello.png"
                 ></img>
               </div>
-              <div className="shadow rounded-full">
+              <div className="rounded-full">
                 <img
                   data-aos="zoom-in-right"
                   className="w-48	"
                   src="  https://i.ibb.co/hc6MV8f/firebase.png"
                 ></img>
               </div>
-              <div className=" shadow rounded-full">
+              <div className="rounded-full">
                 <img
                   data-aos="zoom-in-left"
                   className="w-40"
@@ -82,7 +82,7 @@ const Tools = () => {
               </div>
             </div>
             <div className="middle_tools w-80 h-60 mt-40">
-              <div className="shadow fingam_img">
+              <div className="fingam_img">
                 <img
                   data-aos="fade-up"
                   data-aos-duration="3000"
@@ -92,7 +92,7 @@ const Tools = () => {
               </div>
             </div>
             <div className="last-tools-row flex justify-around flex-col">
-              <div className="shadow github_image w-32 ml-14 rounded-lg">
+              <div className="github_image w-32 ml-14 rounded-lg">
                 <img
                   data-aos="fade-right"
                   data-aos-offset="300"

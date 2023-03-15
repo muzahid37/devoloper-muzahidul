@@ -15,9 +15,7 @@ const Service = () => {
             </h1>
           </div>
           <img
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos="fade-up-right"
             src="https://i.ibb.co/9Hh5b9v/portfolio-Services.png"
           ></img>
         </div>
@@ -45,19 +43,25 @@ const Service = () => {
                 </span>{" "}
               </p>
               <div className="sirvices-point mt-10">
-                <ul className="grid grid-cols-2 gap-5">
-                  <li className="hover:bg-[#b91c1c] hover:text-[white] transition-colors	 duration-1000 p-3 rounded ">
+                {/* <ul className="grid grid-cols-2 gap-5">
+                  <li className="hover:bg-[#b91c1c] list-disc	 hover:text-[white] transition-colors	 duration-1000 p-3 rounded ">
                     <a> website design</a>
                   </li>
-                  <li className="hover:bg-[#b91c1c] hover:text-[white] transition-colors	 duration-1000 p-3 rounded ">
+                  <li className="hover:bg-[#b91c1c] list-disc	 hover:text-[white] transition-colors	 duration-1000 p-3 rounded ">
                     <a>website development</a>
                   </li>
-                  <li className="hover:bg-[#b91c1c] hover:text-[white] transition-colors	 duration-1000 p-3 rounded">
+                  <li className="hover:bg-[#b91c1c] list-disc	 hover:text-[white] transition-colors	 duration-1000 p-3 rounded">
                     <a>website mantenants</a>
                   </li>
-                  <li className="hover:bg-[#b91c1c] hover:text-[white] transition-colors	 duration-1000 p-3 rounded">
+                  <li className="hover:bg-[#b91c1c] list-disc	 hover:text-[white] transition-colors	 duration-1000 p-3 rounded">
                     <a>website testing</a>
                   </li>
+                </ul> */}
+                <ul className="steps steps-vertical">
+                  <li className="step step-primary">website design</li>
+                  <li className="step step-primary">website development</li>
+                  <li className="step step-primary">website mantenants</li>
+                  <li className="step step-primary">website testing</li>
                 </ul>
               </div>
             </div>

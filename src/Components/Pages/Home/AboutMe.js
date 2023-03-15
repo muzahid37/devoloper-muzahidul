@@ -52,7 +52,7 @@ const AboutMe = () => {
     //   </div>
     // </div>
     <div>
-      <div className="about grid  sm:grid-cols-1 lg:grid-cols-2 gap-5 p-10 sm:w-4/4 lg:w-3/4 m-auto mt-12">
+      <div className="about grid  sm:grid-cols-1 lg:grid-cols-2 gap-5 p-10 sm:w-4/4 lg:w-3/4 m-auto mt-24">
         {/* left part of about part */}
         <div data-aos="fade-up" className="about-left m5">
           <div className="about-left-top">
@@ -104,9 +104,7 @@ const AboutMe = () => {
         {/* //right part of about part  */}
         <div className="about-right">
           <img
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos="fade-left"
             src="https://i.ibb.co/s61S8PY/portfolio-About.png"
           ></img>
         </div>

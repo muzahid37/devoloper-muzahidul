@@ -17,28 +17,67 @@ const Contact = () => {
       .catch((err) => console.log(err));
   };
   return (
-    <div className="my-28 w-3/4 mx-auto ">
-      <h2 className="text-center uppercase  text-5xl text-primary py-12 ">
-        Contuct us
-      </h2>
-      <div className=" grid  sm:grid-cols-1 lg:grid-cols-2 gap-5 ">
-        <div
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          class="card p-12 bg-neutral text-white shadow-xl"
-        >
-          <h2>Get in Touch</h2>
-          <p>
-            If you have any query want to ask me or want to give me any
-            important message, you can send me a message at any time and yes, I
-            will try to reply to your message in your email.
-          </p>
-          <h2>Name:Md Muzahidul islam</h2>
-          <h2>Phone:01776436494</h2>
-          <h2>Email:muzahidul372709@gmail.com</h2>
+    <div>
+      <div className="about grid  sm:grid-cols-1 lg:grid-cols-2 gap-5 p-10 sm:w-4/4 lg:w-3/4 m-auto mt-12">
+        {/* left part of about part */}
+        <div data-aos="fade-up" className="about-left m5">
+          <div className="about-left-top">
+            <h1>
+              <span className="p-4 pl-0 text-accent">______</span>
+              <span className="bg-[#fef3c7] text-accent text-1xl p-1">
+                CONTACT US
+              </span>
+            </h1>
+          </div>
+          <div className="about-left-body py-5">
+            <div>
+              <h2 className="text-3xl font-semibold text-[#A3A5A7] py-3">
+                Estimate Your Project? Let Me Know Here.
+              </h2>
+              <form
+                onSubmit={onSubmit}
+                className="grid grid-cols-1 gap-3 justify-items-center mt-2"
+              >
+                <input
+                  className="input w-full"
+                  type="text"
+                  name="name"
+                  // disabled
+                  placeholder="Your name"
+                />
+                <input
+                  className="input w-full "
+                  type="email"
+                  name="userEmail"
+                  // disabled
+                  placeholder="Email address"
+                />
+
+                <input
+                  className="input w-full "
+                  type="textarea"
+                  name="message"
+                  placeholder="Add your message"
+                />
+                <input
+                  className="btn w-full hover:bg-[#b91c1c] hover:text-[white] transition-colors	text-black duration-1000 bg-accent"
+                  type="submit"
+                  value="Submit"
+                />
+              </form>
+            </div>
+          </div>
         </div>
-        <div
+        {/* //right part of about part  */}
+        <div className="about-left">
+          <img
+            data-aos="fade-right"
+            src="https://i.ibb.co/s61S8PY/portfolio-About.png"
+          ></img>
+        </div>
+      </div>
+
+      {/* <div
           data-aos="fade-left"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
@@ -75,56 +114,9 @@ const Contact = () => {
               value="Submit"
             />
           </form>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
-
-    // <div class="hero min-h-screen bg-base-200">
-    //   <div class=" flex-col lg:flex-row flex gap-7 p-12 w-3/4">
-    //       <div className="w-2/4">
-    //           <h2>Get in Touch</h2>
-    //           <p>If you have any query want to ask me or want to give me any important message, you can send me a message at any time and yes, I will try to reply to your message in your email.</p>
-    //           <h2>Name:Md Muzahidul islam</h2>
-    //           <h2>Phone:01776436494</h2>
-    //           <h2>Email:muzahidul372709@gmail.com</h2>
-    //       </div>
-    //       <div className="w-2/4 ">
-    //       <form
-    //           onSubmit={onSubmit}
-    //           className="grid grid-cols-1 gap-3 justify-items-center mt-2"
-    //         >
-    //           <input
-    //             className="input w-full max-w-xs"
-    //             type="text"
-    //             name="name"
-    //             // disabled
-    //             placeholder="Your name"
-    //           />
-    //           <input
-    //             className="input w-full max-w-xs"
-    //             type="email"
-    //             name="userEmail"
-    //             // disabled
-    //             placeholder="Email address"
-    //           />
-
-    //           <input
-    //             className="input w-full max-w-xs"
-    //             type="textarea"
-    //             name="message"
-    //             placeholder="Add your message"
-    //           />
-    //             <input
-    //             className="btn btn-neutral w-full max-w-xs"
-    //             type="submit"
-    //             value="Submit"
-    //           />
-
-    //         </form>
-    //       </div>
-
-    //   </div>
-    // </div>
   );
 };
 

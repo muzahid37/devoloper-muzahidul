@@ -10,7 +10,7 @@ import Tools from "./Tools";
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
+      {/* <Banner></Banner> */}
       <AboutMe />
       <Service></Service>
       <Skill></Skill>
